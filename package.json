@@ -14,7 +14,9 @@
   "author": "Nicolas A. Feitoza",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "dependencies": {
     "next": "^13.5.11",
